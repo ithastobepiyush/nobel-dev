@@ -7,7 +7,7 @@ const Navbar = () => {
 
                 {/* logo area */}
                 <div className="text-2xl font-semibold tracking-tight text-[#2F4F22] ">
-                    <Link href={"/"}>Nobel Finance</Link>
+                    <Link href={"/"}>Nobel Dev</Link>
                 </div>
 
                 {/* navigation and cta */}
