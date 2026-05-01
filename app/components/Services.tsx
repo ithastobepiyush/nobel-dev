@@ -70,7 +70,9 @@ const Services = ({ speed = 40 }: ServicesProps) => {
                 <h2 className="text-4xl md:text-6xl font-medium mb-8 max-w-3xl leading-tight text-[#2F4F22]">
                     Let us handle the numbers, <br /> So you can handle your success.
                 </h2>
-                <button className="bg-yellow-300 text-white px-10 py-4 rounded-full text-sm font-bold hover:scale-150 transition-transform duration-300 cursor-pointer ">
+
+                {/* section 3 button */}
+                <button className="bg-yellow-300 text-black px-10 py-4 rounded-full text-sm font-bold hover:scale-150 transition-transform duration-300 cursor-pointer ">
                     Schedule a call
                 </button>
             </div>
@@ -101,7 +103,7 @@ const Services = ({ speed = 40 }: ServicesProps) => {
                         marqueeItems.map((service, index) => (
                             <div 
                                 key={index} 
-                                className="w-90 mx-4  rounded-3xl p-8 flex flex-col justify-between hover:-translate-y-2 hover:shadow-amber-500 hover:shadow-2xl  transition-all duration-300 shadow-s bg-yellow-200 shrink-0  "
+                                className="w-90 mx-4  rounded-3xl p-8 flex flex-col justify-between hover:-translate-y-2 hover:shadow-amber-500 hover:shadow-2xl  transition-all duration-300 shadow-s bg-yellow-200 shrink-0"
                             >
                                 <div>
                                     {/* image placeholder */}

@@ -1,0 +1,8 @@
+{
+  "greeting": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "start"],
+  "services": ["services", "what do you do", "offerings", "products", "what can you do", "help"],
+  "pricing": ["price", "cost", "fee", "pricing", "how much", "charges"],
+  "contact": ["contact", "email", "phone", "support", "call", "reach"],
+  "location": ["location", "address", "where", "office", "visit"],
+  "default": ["unknown"]
+}
