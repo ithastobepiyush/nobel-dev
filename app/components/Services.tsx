@@ -63,7 +63,7 @@ const Services = () => {
                 <h2 className="text-4xl md:text-6xl font-medium mb-8 max-w-3xl leading-tight text-[#2F4F22]">
                     Let us handle the numbers, <br /> So you can handle you succuess.
                 </h2>
-                <button className="bg-yellow-400 text-white px-12 py-6 rounded-full text-lm font-bold hover:scale-150 transition-transform duration-300 cursor-pointer ">
+                <button className="bg-[#2F4F22] text-white px-10 py-4 rounded-full text-sm font-bold hover:scale-150 transition-transform duration-300 cursor-pointer ">
                     Schedule a call
                 </button>
             </div>
@@ -74,11 +74,11 @@ const Services = () => {
                     services.map((service, index) => (
                         <div 
                             key={index} 
-                            className="bg-[#5EB2F4] rounded-3xl p-12 cursor-pointer flex items-center gap-10 transition-all duration-500 hover:scale-105  "
+                            className="bg-[#5EB2F4] rounded-3xl p-12 flex flex-col justify-between hover:shadow-xl transition-shadow duration-500 "
                         >
                             <div>
                                 {/* image placeholder */}
-                                <div className="w-40 h-40 fle-shrink-0  ">
+                                <div className="w-full h-48 bg-gray-400 rounded-2xl mb-8 overflow-hidden ">
                                     <Image 
                                         src={service.img} 
                                         width={100} 
@@ -97,7 +97,7 @@ const Services = () => {
                                     service.tags.map(tag => (
                                         <span 
                                             key={tag}
-                                            className="px-4 py-2 bg-white border-gray-300 rounded-full font-medium "
+                                            className="px-4 py-2 bg-white border-gray-300 rounded-full "
                                         >
                                             {tag}
                                         </span>
