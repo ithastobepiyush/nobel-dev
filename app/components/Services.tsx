@@ -113,7 +113,7 @@ const Services = ({ speed = 40 }: ServicesProps) => {
                                             width={140} 
                                             height={140} 
                                             alt={service.title}
-                                            className="object-contain drop-shadow-md"
+                                            className="object-contain drop-shadow-md h-full w-auto "
                                         />
                                     </div>
                                     <h3 className="text-2xl font-semibold mb-3 text-gray-900 leading-tight ">{service.title}</h3>
