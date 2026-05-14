@@ -1,7 +1,6 @@
 import ChatBot from "./components/Chatbot";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-import TimedCard from "./components/TimedCard";
 
 const timecardData = [
   {
@@ -45,7 +44,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <TimedCard data={timecardData} />
       <Services />
       <ChatBot />
     </>
