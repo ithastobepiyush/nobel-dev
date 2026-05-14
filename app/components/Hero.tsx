@@ -2,15 +2,15 @@ import Image from 'next/image'
 
 const Hero = () => {
     return (
-        <section className="bg-green-300 min-h-[90vh] pt-32 pb-20 px-8 md:px-16 flex items-center rounded-b-[40px] ">
+        <section className="bg-green-300 min-h-[90vh] pt-32 pb-20 px-8 md:px-16 flex items-center rounded-b-[40px] overflow-hidden ">
 
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
 
                 {/* left side content */}
-                <div className="flex flex-col space-y-8 ">
+                <div className="flex flex-col space-y-8 min-w-0 ">
 
-                    <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tight ">
-                        Marketing Services Crafted for Human and AI Recognition
+                    <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tight wrap-break-word ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         {/* Financial Clarity You Can Trust */}
                     </h1>
                     <p className='text-lg md:text-xl text-[#2F4F22]/80 max-w-sm leading-relaxed '>

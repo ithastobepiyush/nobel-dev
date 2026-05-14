@@ -26,7 +26,9 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <Navbar />
-        {children}
+        <main>
+          {children}
+        </main>
         <ChatBot />
       </body>
     </html>

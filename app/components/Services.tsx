@@ -120,7 +120,7 @@ const Services = ({ speed = 40 }: ServicesProps) => {
                                     <p className="text-gray-800 text-sm mb-6 line-clamp-4 ">{service.desc}</p>
                                 </div> 
                                 
-                                {/* tags area */}
+                                {/* imp tags area */}
                                 <div className="flex flex-wrap gap-2 mt-auto">
                                     {
                                         service.tags.map(tag => (
