@@ -41,12 +41,20 @@ const Navbar = () => {
                 {/* logo area */}
                 <div className="text-2xl font-semibold tracking-tight text-[#2F4F22] ">
                     <Link href={"/"}>
-                        Nobel dev.
+                        OAISis.
                     </Link>
                 </div>
 
                 {/* navigation and cta */}
                 <div className="flex items-center gap-12 ">
+
+                    {/* cta button */}
+                    <Link
+                        href={"about"}
+                        className="bg-purple-400 text-white px-8 py-3 rounded-full text-base font-bold shadow-sm hover:scale-105 transition-transform duration-300 cursor-pointer "
+                    >
+                        About us
+                    </Link>                    
 
                     {/* links */}
                     <div className="hidden sm:flex items-center gap-10 text-sm font-medium text-gray-500 ">
@@ -57,15 +65,6 @@ const Navbar = () => {
                             Services
                         </Link>
                     </div>
-
-                    {/* cta button */}
-                    <Link
-                        href={"about"}
-                        className="bg-purple-400 text-white px-8 py-3 rounded-full text-base font-bold shadow-sm hover:scale-105 transition-transform duration-300 cursor-pointer "
-                    >
-                        About us
-                    </Link>
-                    
                 </div>
 
             </div>

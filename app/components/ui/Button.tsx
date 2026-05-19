@@ -38,7 +38,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
             "bg-rose-500 text-white hover:bg-rose-500/90": variant === "rose",
             "bg-emerald-500 text-white hover:bg-emerald-500/90": variant === "emerald",
             "bg-indigo-500 text-white hover:bg-indigo-500/90": variant === "indigo",
-            "bg-teal-500 text-white hover:bg-teal-500/90": variant === "teal",
+            "bg-teal-500 atext-white hover:bg-teal-500/90": variant === "teal",
             "bg-pink-400 text-white hover:bg-pink-400/90": variant === "pink",
             "bg-lime-400 text-black hover:bg-lime-400/90": variant === "lime",
             "bg-amber-500 text-white hover:bg-amber-500/90": variant === "amber",

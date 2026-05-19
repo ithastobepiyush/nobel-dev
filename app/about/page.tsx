@@ -120,7 +120,7 @@ export default function AboutPage() {
 
 
       {/* Tech Stack */}
-      <section className="bg-neutral-900 py-24 rounded-[40px] mx-4 md:mx-8 px-8 md:px-16">
+      <section className="bg-blue-200 py-24 rounded-[40px] mx-4 md:mx-8 px-8 md:px-16">
         <div className="max-w-7xl mx-auto text-center mb-16">
            <h2 className="text-3xl md:text-4xl font-medium text-white mb-4">
               my tech arsenal 
@@ -138,7 +138,7 @@ export default function AboutPage() {
 
             <div 
               key={i} 
-              className="bg-neutral-800 rounded-2xl p-6 border border-neutral-700 hover:-translate-y-2 hover:border-purple-400 transition-all duration-300 group"
+              className="flex gap-4 items-center justify-center rounded-2xl p-6 hover:-translate-y-2 hover:border-purple-400 transition-all duration-300 group"
             >
 
               
@@ -149,9 +149,7 @@ export default function AboutPage() {
                 height={60}
                 className="mb-4 object-contain"
               />
-              <h4 className="text-xl font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">{tech.name}</h4>
-              <span className="text-sm text-gray-400">{tech.role}</span>
-
+              <h4 className="text-xl font-semibold text-black mb-1 group-hover:text-purple-400 transition-colors">{tech.name}</h4>
             </div>
            ))}
         
@@ -181,7 +179,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
            {[
              { title: "RawBlock Framework", desc: "A brutalist CSS framework for experimental portfolios.", color: "bg-yellow-200" },
-             { title: "Nobel Finance", desc: "A premium corporate website built with Next.js and Tailwind.", color: "bg-green-200" },
+             { title: "Oaisis", desc: "A premium corporate website built with Next.js and Tailwind.", color: "bg-green-200" },
              { title: "Minimal Chatbot", desc: "A rule-based chatbot interface built with vanilla JS.", color: "bg-purple-200" }
            ].map((repo, i) => (
              <div key={i} className={`${repo.color} rounded-3xl p-8 h-64 flex flex-col justify-between hover:scale-105 transition-transform duration-300 shadow-sm hover:shadow-xl`}>
