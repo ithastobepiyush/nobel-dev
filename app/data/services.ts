@@ -10,110 +10,62 @@ export interface SubTopic {
 export const servicesData: Record<ServiceCategory, SubTopic[]> = {
   Solutions: [
     {
-      id: "ai-software-solutions",
-      title: "AI Software Solutions & Consulting",
-      description: "End-to-end artificial intelligence implementation, from strategic consulting to deploying robust, scalable machine learning architectures tailored for enterprise needs.",
-      features: ["Custom AI Architecture", "Enterprise Integration", "Scalable Deployment", "Performance Monitoring"]
+      id: "generative-ai-enterprise-solutions",
+      title: "Generative AI & Enterprise Solutions",
+      description: "We provide end-to-end artificial intelligence implementation, specializing in integrating foundational models into enterprise workflows. By building custom Large Language Models (LLMs), highly optimized Retrieval-Augmented Generation (RAG) pipelines, and automated content generation systems, we transform your raw data into actionable intelligence. Our strategic consulting ensures that these robust, scalable machine learning architectures are perfectly tailored to meet your specific business requirements, driving unparalleled efficiency and innovation.",
+      features: ["Custom LLMs & RAG Pipelines", "Enterprise System Integration", "Scalable AI Architecture", "Automated Workflows"]
     },
     {
-      id: "generative-ai",
-      title: "Generative AI",
-      description: "Harness the power of foundational models. We build custom LLMs, RAG pipelines, and automated content systems that seamlessly integrate into your current operations.",
-      features: ["Large Language Models (LLMs)", "Retrieval-Augmented Generation (RAG)", "Automated Workflows", "Custom Fine-tuning"]
+      id: "advanced-predictive-modeling",
+      title: "Advanced Predictive Modeling & Analytics",
+      description: "Leverage the combined power of supervised learning and probabilistic modeling to extract high-precision insights from complex, structured datasets. We design sophisticated Bayesian networks and predictive algorithms that excel in classification, regression, and time-series forecasting. By rigorously quantifying uncertainty and assessing risk, our models provide robust, highly explainable predictions that empower high-stakes decision-making in critical industries such as finance and healthcare.",
+      features: ["Bayesian Inference & Risk Assessment", "Time-Series Forecasting", "Explainable Predictive Analytics", "Uncertainty Quantification"]
     },
     {
-      id: "reinforcement-learning",
-      title: "Reinforcement Learning",
-      description: "Develop intelligent agents capable of complex decision-making in dynamic environments, optimizing supply chains, robotics, and algorithmic trading.",
-      features: ["Deep Q-Networks", "Policy Gradient Methods", "Simulation Environments", "Reward Optimization"]
-    },
-    {
-      id: "probabilistic-models",
-      title: "Probabilistic Models",
-      description: "Leverage uncertainty. We design Bayesian networks and Markov models to provide robust, explainable predictions in high-stakes industries.",
-      features: ["Bayesian Inference", "Markov Decision Processes", "Risk Assessment", "Uncertainty Quantification"]
-    },
-    {
-      id: "supervised-learning",
-      title: "Supervised Learning",
-      description: "High-precision predictive modeling using structured data. Ideal for classification, regression, and time-series forecasting across financial and medical domains.",
-      features: ["Predictive Analytics", "Image Classification", "Time-Series Forecasting", "Feature Engineering"]
-    },
-    {
-      id: "combinatorial-optimization",
-      title: "Combinatorial Optimization & Search",
-      description: "Solving the unsolvable. We apply advanced heuristics and exact algorithms to tackle complex routing, scheduling, and resource allocation problems.",
-      features: ["Resource Allocation", "Route Optimization", "Scheduling Algorithms", "Heuristic Search"]
+      id: "autonomous-systems-optimization",
+      title: "Autonomous Systems & Optimization",
+      description: "Tackle your most complex operational challenges by deploying intelligent agents and advanced heuristic algorithms. Combining deep reinforcement learning with combinatorial optimization, we engineer systems capable of executing highly complex decision-making in dynamic, unpredictable environments. From optimizing intricate global supply chains and robotic movements to solving highly constrained routing and resource allocation problems, we deliver solutions that maximize reward and operational efficiency.",
+      features: ["Deep Reinforcement Learning", "Advanced Route & Resource Optimization", "Simulation & Policy Gradient Methods", "Algorithmic Scheduling"]
     }
   ],
   Workshops: [
     {
-      id: "use-case-identification",
-      title: "Use Case Identification & Assessment",
-      description: "A collaborative workshop to identify high-impact AI opportunities within your organization. We evaluate feasibility, ROI, and technical readiness.",
-      features: ["ROI Analysis", "Feasibility Studies", "Opportunity Mapping", "Risk Evaluation"]
+      id: "ai-strategy-assessment",
+      title: "AI Strategy & Opportunity Assessment",
+      description: "An intensive, collaborative workshop designed to identify high-impact artificial intelligence opportunities specifically tailored to your organizational goals. We work closely with your leadership team to develop a comprehensive roadmap for AI adoption, rigorously evaluating technical feasibility, projected return on investment (ROI), and organizational readiness. By aligning cutting-edge technical capabilities with your core business objectives, we help you establish a sustainable competitive advantage in your market.",
+      features: ["Comprehensive ROI Analysis", "Feasibility & Risk Evaluation", "Strategic Roadmap Development", "Executive Vision Alignment"]
     },
     {
-      id: "ai-strategy",
-      title: "AI Strategy Workshops",
-      description: "Develop a comprehensive roadmap for AI adoption. Align technical capabilities with business objectives to create a sustainable competitive advantage.",
-      features: ["Roadmap Development", "Executive Alignment", "Market Positioning", "Technology Assessment"]
+      id: "product-ideation-blueprinting",
+      title: "Product Ideation & Technical Blueprinting",
+      description: "Bridge the critical gap between conceptual user needs and tangible, cutting-edge machine learning capabilities through guided brainstorming and architectural planning. We take your initial concepts and translate them into actionable engineering blueprints, defining robust data pipelines, scalable infrastructures, and stringent security protocols. This workshop ensures your product teams can move rapidly from user-centric design and rapid prototyping to structured, enterprise-ready technical deployment.",
+      features: ["User-Centric AI Prototyping", "Architecture & Data Pipeline Blueprinting", "Feature Prioritization", "Secure Infrastructure Planning"]
     },
     {
-      id: "product-ideation",
-      title: "Product Ideation",
-      description: "Brainstorm and conceptualize AI-driven products. We bridge the gap between user needs and cutting-edge machine learning capabilities.",
-      features: ["User-Centric Design", "Rapid Prototyping", "Feature Prioritization", "Market Validation"]
-    },
-    {
-      id: "technical-planning",
-      title: "Technical Planning",
-      description: "Translate high-level strategies into actionable engineering blueprints. Define architectures, data pipelines, and deployment strategies.",
-      features: ["Architecture Blueprinting", "Data Pipeline Design", "Infrastructure Selection", "Security Planning"]
-    },
-    {
-      id: "team-collaboration",
-      title: "Team Collaboration Workshops",
-      description: "Foster a culture of cross-functional innovation. Bridge the gap between data scientists, engineers, and product managers.",
-      features: ["Cross-functional Alignment", "Agile Methodologies", "Communication Frameworks", "Knowledge Sharing"]
+      id: "cross-functional-innovation",
+      title: "Cross-Functional Team Innovation",
+      description: "Cultivate a thriving culture of continuous innovation by breaking down silos and fostering seamless collaboration across your entire organization. This workshop is specifically designed to bridge the communication gap between data scientists, software engineers, and product managers using agile methodologies and tailored communication frameworks. We equip your teams with the collaborative tools and shared knowledge necessary to execute complex AI initiatives smoothly and efficiently.",
+      features: ["Cross-Functional Alignment", "Agile AI Methodologies", "Tailored Communication Frameworks", "Knowledge Transfer Strategies"]
     }
   ],
   Trainings: [
     {
-      id: "ai-trainings",
-      title: "AI Trainings",
-      description: "Comprehensive bootcamps covering the fundamentals of artificial intelligence, neural networks, and modern deep learning frameworks.",
-      features: ["Deep Learning Fundamentals", "PyTorch & TensorFlow", "Model Training", "Evaluation Metrics"]
+      id: "applied-ml-systems",
+      title: "Applied Machine Learning & AI Systems",
+      description: "A comprehensive, deep-dive training program that covers the entire machine learning lifecycle, from theoretical fundamentals to state-of-the-art deployment. Participants will master neural networks, deep learning frameworks like PyTorch and TensorFlow, and advanced reinforcement learning techniques. Furthermore, the curriculum extensively covers MLOps, teaching your team how to build, test, and deploy robust, production-ready machine learning pipelines with integrated continuous CI/CD and model registries.",
+      features: ["Deep Learning & RL Fundamentals", "PyTorch & TensorFlow Mastery", "End-to-End MLOps", "Model Registry & A/B Testing"]
     },
     {
-      id: "software-design",
-      title: "Software Design",
-      description: "Learn to architect scalable, maintainable software systems designed to support data-intensive AI workloads.",
-      features: ["Design Patterns", "Microservices", "API Development", "System Scalability"]
+      id: "scalable-software-design",
+      title: "Scalable Software Design for AI",
+      description: "Equip your engineering teams with the advanced architectural principles required to build scalable, highly maintainable software systems specifically designed to support data-intensive AI workloads. This training delves into modern design patterns, microservices architecture, and high-performance API development. Your developers will learn how to decouple complex systems, ensuring that your core applications remain responsive and resilient even under the immense computational demands of modern AI models.",
+      features: ["Advanced Design Patterns", "Microservices for AI", "High-Performance API Development", "System Decoupling & Scalability"]
     },
     {
-      id: "rl-training",
-      title: "Reinforcement Learning",
-      description: "Advanced training in building intelligent agents. From basic Q-learning to state-of-the-art proximal policy optimization.",
-      features: ["Q-Learning", "Actor-Critic Methods", "Environment Design", "Hyperparameter Tuning"]
-    },
-    {
-      id: "ml-systems",
-      title: "Machine Learning Systems",
-      description: "End-to-end ML lifecycle management. Learn to build, test, and deploy robust machine learning pipelines in production.",
-      features: ["MLOps", "Model Registry", "A/B Testing", "Continuous Integration"]
-    },
-    {
-      id: "devops-training",
-      title: "DevOps Training",
-      description: "Master the tools and practices required to automate infrastructure, streamline deployments, and ensure high availability.",
-      features: ["CI/CD Pipelines", "Containerization (Docker)", "Kubernetes", "Infrastructure as Code"]
-    },
-    {
-      id: "cloud-architecture",
-      title: "Cloud Architecture",
-      description: "Design secure, scalable cloud environments tailored for AI applications on AWS, Google Cloud, or Azure.",
-      features: ["Serverless Computing", "Cloud Storage", "Identity & Access Management", "Cost Optimization"]
+      id: "cloud-architecture-devops",
+      title: "Cloud Architecture & DevOps Automation",
+      description: "Master the essential tools and industry-best practices required to automate modern infrastructure, streamline rapid deployments, and guarantee high availability for AI applications. This intensive module covers containerization using Docker, orchestration via Kubernetes, and the principles of Infrastructure as Code. Participants will also learn how to design secure, highly optimized, and cost-effective cloud environments tailored for intense AI computation across major cloud providers.",
+      features: ["Kubernetes & Docker Containerization", "CI/CD Pipeline Automation", "Secure Serverless Computing", "Cloud Cost Optimization"]
     }
   ]
 };
