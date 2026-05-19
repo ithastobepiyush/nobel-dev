@@ -43,7 +43,7 @@ export default function AboutPage() {
             <p className="hero-anim text-lg md:text-xl text-[#2F4F22]/80 max-w-md leading-relaxed">
               Creator of the RawBlock Design System. I believe in unapologetic architectures, structural bones, and the raw power of code over polish.
             </p>
-            <div className="hero-anim pt-4   gap-4">
+            <div className="hero-anim pt-4 gap-4">
 
 
                <Link href="#contact">
@@ -63,8 +63,8 @@ export default function AboutPage() {
 
 
           {/* Image section */}
-          <div className="hero-anim relative flex justify-center items-center">
-            <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidde transition-all duration-700 hover:scale-105">
+          {/* <div className="hero-anim relative flex justify-center items-center">
+            <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-[6px] border-[#2F4F22]/10 shadow-2xl transition-all duration-700 hover:scale-105">
                <Image
                  src="/developer_avatar.png" // placeholder that we will generate or just fallback
                  alt="Developer Avatar"
@@ -75,7 +75,7 @@ export default function AboutPage() {
                  }}
                />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
