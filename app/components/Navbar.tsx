@@ -52,9 +52,9 @@ const Navbar = () => {
                     <div className="hidden sm:flex items-center gap-10 text-sm font-medium text-gray-500 ">
                         <Link
                             className="hover:text-black transition-colors "
-                            href={"about"}
+                            href={"services"}
                         >
-                            About us
+                            Services
                         </Link>
                     </div>
 
@@ -63,7 +63,7 @@ const Navbar = () => {
                         href={"about"}
                         className="bg-purple-400 text-white px-8 py-3 rounded-full text-base font-bold shadow-sm hover:scale-105 transition-transform duration-300 cursor-pointer "
                     >
-                        Get in touch
+                        About us
                     </Link>
                     
                 </div>

@@ -13,7 +13,7 @@ const Hero = () => {
                     <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tighter break-words ">
                         THE BEAUTY OF IMPACTFUL SOLUTIONS
                         {/* Financial Clarity You Can Trust */}
-                    </h1>
+                </h1>
                     <p className='text-lg md:text-xl text-[#2F4F22]/80 max-w-sm leading-relaxed '>
                         What sets us apart is our ability to find elegant solutions to complex problems.
                     </p>

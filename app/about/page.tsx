@@ -6,6 +6,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
 import { Button } from "../components/ui/Button";
+import Arsenel from "../components/Arsenal";
 
 export default function AboutPage() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -27,34 +28,33 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section 
         ref={heroRef}
-        className="bg-green-300 min-h-[70vh] pt-32 pb-20 px-8 md:px-16 flex items-center rounded-b-[40px] overflow-hidden"
+        className="bg-purple-200 min-h-[70vh] pt-32 pb-20 px-8 md:px-16 flex items-center rounded-b-[40px] overflow-hidden"
       >
         <div className="max-w-7xl mx-auto items-center w-full">
           <div className="flex flex-col space-y-6">
 
-            <span className="hero-anim text-l tracking-widest text-[#2F4F22] font-semibold uppercase">
+            <span className="hero-anim text-3xl tracking-widest  ">
               hello i am piyush, just a hobbyist
             </span>
             
-            <h1 className="hero-anim text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tighter wrap-break-word`">
+            <h1 className="hero-anim text-4xl md:text-5xl font-medium ` leading-[1.1] tracking-tighter wrap-break-word`">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             </h1>
             
-            <p className="hero-anim text-lg md:text-xl text-[#2F4F22]/80 max-w-md leading-relaxed">
-              Creator of the RawBlock Design System. I believe in unapologetic architectures, structural bones, and the raw power of code over polish.
+            <p className="hero-anim text-lg md:text-xl max-w-md leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci veritatis cupiditate esse nihil.
             </p>
-            <div className="hero-anim pt-4 gap-4">
+            <div className="hero-anim pt-8 flex gap-10  ">
 
 
                <Link href="#contact">
-                 <Button variant="primary" size="lg">Let's Connect</Button>
+                 <Button variant="primary" size="lg">Lets Connect</Button>
                </Link>
-               <Link href="https://github.com" target="_blank">
-                 <Button variant="ghost" size="lg">GitHub</Button>
+               <Link href="https://github.com/iaimpiyush" target="_blank">
+                 <Button variant="dark" size="lg">GitHub</Button>
                </Link>
             
             </div>
-
 
 
           </div>
@@ -79,12 +79,15 @@ export default function AboutPage() {
         </div>
       </section>
 
+
+
+
       {/* About & Philosophy */}
       <section className="max-w-5xl mx-auto px-8 md:px-16 py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-medium text-gray-900 mb-6">
-              My Design Philosophy
+              Lorem ipsum dolor sit.
             </h2>
             <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
               <p>
@@ -115,32 +118,50 @@ export default function AboutPage() {
         </div>
       </section>
 
+
       {/* Tech Stack */}
       <section className="bg-neutral-900 py-24 rounded-[40px] mx-4 md:mx-8 px-8 md:px-16">
         <div className="max-w-7xl mx-auto text-center mb-16">
            <h2 className="text-3xl md:text-4xl font-medium text-white mb-4">
-              My Tech Arsenal
+              my tech arsenal 
            </h2>
-           <p className="text-gray-400">Tools and frameworks I use to build raw, powerful interfaces.</p>
+           <p className="text-gray-400">tools & frameworks i prefer to build interfaces.</p>
         </div>
 
+
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
-           {[
-             { name: "Next.js", role: "Framework" },
-             { name: "React", role: "Library" },
-             { name: "Tailwind CSS", role: "Styling" },
-             { name: "GSAP", role: "Animations" },
-             { name: "TypeScript", role: "Language" },
-             { name: "Node.js", role: "Backend" },
-             { name: "Vercel", role: "Cloud" },
-             { name: "Figma", role: "Design" }
-           ].map((tech, i) => (
-             <div key={i} className="bg-neutral-800 rounded-2xl p-6 border border-neutral-700 hover:-translate-y-2 hover:border-purple-400 transition-all duration-300 group">
-               <h4 className="text-xl font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">{tech.name}</h4>
-               <span className="text-sm text-gray-400">{tech.role}</span>
-             </div>
+
+
+            {/* main techstack */}
+
+           {Arsenel.map((tech, i) => (
+
+            <div 
+              key={i} 
+              className="bg-neutral-800 rounded-2xl p-6 border border-neutral-700 hover:-translate-y-2 hover:border-purple-400 transition-all duration-300 group"
+            >
+
+              
+              <Image
+                src={tech.icon}
+                alt={tech.name} 
+                width={60}
+                height={60}
+                className="mb-4 object-contain"
+              />
+              <h4 className="text-xl font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">{tech.name}</h4>
+              <span className="text-sm text-gray-400">{tech.role}</span>
+
+            </div>
            ))}
+        
+        
+        
         </div>
+
+
+
+
       </section>
 
       {/* Featured Work / Contribution Activity Placeholder */}
