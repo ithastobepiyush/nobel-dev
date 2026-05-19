@@ -9,12 +9,12 @@ const Hero = () => {
                 {/* left side content */}
                 <div className="flex flex-col space-y-8 min-w-0 ">
 
-                    <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tight wrap-break-word ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tighter  wrap-break-word ">
+                        THE BEAUTY OF IMPACTFUL SOLUTIONS
                         {/* Financial Clarity You Can Trust */}
                     </h1>
                     <p className='text-lg md:text-xl text-[#2F4F22]/80 max-w-sm leading-relaxed '>
-                        Trusted financial guidance for every stage of life and business since 1987
+                        What sets us apart is our ability to find elegant solutions to complex problems.
                     </p>
 
                     <div>

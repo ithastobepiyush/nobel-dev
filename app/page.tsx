@@ -1,4 +1,4 @@
-import ChatBot from "./components/Chatbot";
+// import ChatBot from "./components/Chatbot";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 
@@ -45,7 +45,7 @@ export default function Home() {
     <>
       <Hero />
       <Services />
-      <ChatBot />
+      {/* <ChatBot /> */}
     </>
   );
 }
