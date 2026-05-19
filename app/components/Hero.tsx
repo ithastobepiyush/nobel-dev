@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Button } from './ui/Button'
 
 const Hero = () => {
     return (
@@ -9,7 +10,7 @@ const Hero = () => {
                 {/* left side content */}
                 <div className="flex flex-col space-y-8 min-w-0 ">
 
-                    <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tighter  wrap-break-word ">
+                    <h1 className="text-5xl md:text-7xl font-medium text-[#2F4F22] leading-[1.1] tracking-tighter break-words ">
                         THE BEAUTY OF IMPACTFUL SOLUTIONS
                         {/* Financial Clarity You Can Trust */}
                     </h1>
@@ -18,9 +19,9 @@ const Hero = () => {
                     </p>
 
                     <div>
-                        <button className="bg-[#5EB9FC] text-white px-10 py-4 rounded-full text-l font-bold hover:scale-130 transition-transform duration-300 cursor-pointer ">
+                        <Button variant="primary" size="lg">
                             Connect with our experts
-                        </button>
+                        </Button>
                     </div>
                 </div>
 
@@ -29,7 +30,7 @@ const Hero = () => {
                     {/* globe asset */}
                     <div className="relative w-full aspect-square max-w-125">
                         {/* next image of globe */}
-                        <div className='w-full h-full  transition-all duration-700  hover:scale-120 inset-0 z-10'>
+                        <div className='w-full h-full transition-all duration-700 hover:scale-105 inset-0 z-10'>
                             <Image
                                 className='relative z-10 w-full h-auto drop-shadow-2xl '
                                 src="/globe-placeholder.png"

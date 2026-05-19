@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Button } from './ui/Button'
 
 const services = [
   {
@@ -72,9 +73,9 @@ const Services = ({ speed = 40 }: ServicesProps) => {
                 </h2>
 
                 {/* section 3 button */}
-                <button className="bg-yellow-300 text-black px-10 py-4 rounded-full text-sm font-bold hover:scale-150 transition-transform duration-300 cursor-pointer ">
+                <Button variant="accent" size="lg">
                     Schedule a call
-                </button>
+                </Button>
             </div>
 
 
